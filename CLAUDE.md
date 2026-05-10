@@ -34,6 +34,23 @@ MVVM with SwiftUI, targeting iOS 17+ and macOS 14+.
 - **Models**: `TimerPhase` (work/shortBreak/longBreak), `TimerStatus` (idle/running/paused), `SettingsKey` for UserDefaults keys
 - **Services**: `SoundService` (singleton, uses AudioServicesPlaySystemSound), `NotificationService` (singleton, UNUserNotificationCenter wrapper, disables on macOS when not in app bundle)
 
+## Git Commit Convention
+
+Use Conventional Commits:
+
+- `feat:` — 新功能
+- `fix:` — Bug 修复
+- `chore:` — 杂务（配置文件、gitignore 等）
+- `test:` — 测试相关
+- `refactor:` — 重构
+- `docs:` — 文档
+
+格式：`type: 简短描述`，正文可补充细节。
+
+## Slash Commands
+
+- `/git` — 执行完整提交流程：stage 所有改动、review diff、生成 Conventional Commits 格式的提交信息并推送到 GitHub
+
 ## Key Patterns
 
 - No external dependencies — pure SwiftUI + Combine + Foundation

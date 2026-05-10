@@ -5,3 +5,4 @@
 DerivedData/
 .swiftpm/
 superpowers/
+.claude/settings.local.json
