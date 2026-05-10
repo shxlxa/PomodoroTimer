@@ -1,0 +1,301 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		77F1FCCE1F1645B3BF4C3EB0 /* PomodoroApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9CC878E38374CAAAC3931B6 /* PomodoroApp.swift */; };
+		86178795A7FD4ED0955684C1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70D2FEBB15D64503BFDFB0C3 /* ContentView.swift */; };
+		9AE4A59A9F314BD2934861FE /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BE15A1C358648C4992B5712 /* NotificationService.swift */; };
+		9DD6E6D9BD7A4013BA473A0B /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8742BE5A3DE3422998EC4111 /* TimerViewModel.swift */; };
+		AD1FDF9C3E484198835272F3 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2844920BC45B457A9DC8EDCA /* SettingsView.swift */; };
+		B1B7FC2563F147E99E26B0B3 /* CircularProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1754751A5265415897020FE6 /* CircularProgressView.swift */; };
+		B2A24C01695D409794FF9F3F /* TimerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BA4886EAF8945B2A8D180C6 /* TimerModels.swift */; };
+		C1BB0BD422024F9392A8573F /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9339A83940EB4DBFB8772468 /* TimerView.swift */; };
+		D08DEEB3A286434B82A741D0 /* SoundService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B447785A69E4190B7A38D8E /* SoundService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B447785A69E4190B7A38D8E /* SoundService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SoundService.swift; path = Services/SoundService.swift; sourceTree = "<group>"; };
+		1163ED9DFDC34FFF8BD7B01D /* PomodoroTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PomodoroTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1754751A5265415897020FE6 /* CircularProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CircularProgressView.swift; path = Views/CircularProgressView.swift; sourceTree = "<group>"; };
+		2844920BC45B457A9DC8EDCA /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SettingsView.swift; path = Views/SettingsView.swift; sourceTree = "<group>"; };
+		3BA4886EAF8945B2A8D180C6 /* TimerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerModels.swift; path = Models/TimerModels.swift; sourceTree = "<group>"; };
+		70D2FEBB15D64503BFDFB0C3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		8742BE5A3DE3422998EC4111 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerViewModel.swift; path = ViewModels/TimerViewModel.swift; sourceTree = "<group>"; };
+		8BE15A1C358648C4992B5712 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NotificationService.swift; path = Services/NotificationService.swift; sourceTree = "<group>"; };
+		9339A83940EB4DBFB8772468 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TimerView.swift; path = Views/TimerView.swift; sourceTree = "<group>"; };
+		B9CC878E38374CAAAC3931B6 /* PomodoroApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PomodoroApp.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A00165BBE524F35A5E317E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4245137AA91D443B82134E3F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3BA4886EAF8945B2A8D180C6 /* TimerModels.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		6629934AB8654564973DDE8B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1163ED9DFDC34FFF8BD7B01D /* PomodoroTimer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AD5445DF13C43A8B86FC554 = {
+			isa = PBXGroup;
+			children = (
+				C08B8EED02594AA091E5E7E2 /* Sources/PomodoroTimer */,
+				6629934AB8654564973DDE8B /* Products */,
+				ECEF216DD513466F8A9E4745 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		768B20F693C343F7B913420A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1754751A5265415897020FE6 /* CircularProgressView.swift */,
+				9339A83940EB4DBFB8772468 /* TimerView.swift */,
+				2844920BC45B457A9DC8EDCA /* SettingsView.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		9A20CB818E094D2EA07F9624 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				8BE15A1C358648C4992B5712 /* NotificationService.swift */,
+				0B447785A69E4190B7A38D8E /* SoundService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		C08B8EED02594AA091E5E7E2 /* Sources/PomodoroTimer */ = {
+			isa = PBXGroup;
+			children = (
+				B9CC878E38374CAAAC3931B6 /* PomodoroApp.swift */,
+				70D2FEBB15D64503BFDFB0C3 /* ContentView.swift */,
+				4245137AA91D443B82134E3F /* Models */,
+				D560F3D91D56452EBFBF5026 /* ViewModels */,
+				768B20F693C343F7B913420A /* Views */,
+				9A20CB818E094D2EA07F9624 /* Services */,
+			);
+			path = Sources/PomodoroTimer;
+			sourceTree = "<group>";
+		};
+		D560F3D91D56452EBFBF5026 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8742BE5A3DE3422998EC4111 /* TimerViewModel.swift */,
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		ECEF216DD513466F8A9E4745 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			path = Sources/PomodoroTimer/Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7951F87C2DD14BF59CC29CF0 /* PomodoroTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 09CE2D2BCAFA4876BD435B02 /* Build configuration list for PBXNativeTarget "PomodoroTimer" */;
+			buildPhases = (
+				AEF44B112FDF4833952DA82F /* Sources */,
+				4A00165BBE524F35A5E317E9 /* Frameworks */,
+				CD7C2D3DE64F4FC0864EB624 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PomodoroTimer;
+			productName = PomodoroTimer;
+			productReference = 1163ED9DFDC34FFF8BD7B01D /* PomodoroTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A453A7D49464B8691A93193 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+			};
+			buildConfigurationList = 42F099237FDD414DA70EEFB5 /* Build configuration list for PBXProject "PomodoroTimer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6AD5445DF13C43A8B86FC554;
+			productRefGroup = 6629934AB8654564973DDE8B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7951F87C2DD14BF59CC29CF0 /* PomodoroTimer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7C2D3DE64F4FC0864EB624 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AEF44B112FDF4833952DA82F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1B7FC2563F147E99E26B0B3 /* CircularProgressView.swift in Sources */,
+				86178795A7FD4ED0955684C1 /* ContentView.swift in Sources */,
+				9AE4A59A9F314BD2934861FE /* NotificationService.swift in Sources */,
+				77F1FCCE1F1645B3BF4C3EB0 /* PomodoroApp.swift in Sources */,
+				AD1FDF9C3E484198835272F3 /* SettingsView.swift in Sources */,
+				D08DEEB3A286434B82A741D0 /* SoundService.swift in Sources */,
+				B2A24C01695D409794FF9F3F /* TimerModels.swift in Sources */,
+				C1BB0BD422024F9392A8573F /* TimerView.swift in Sources */,
+				9DD6E6D9BD7A4013BA473A0B /* TimerViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		3745585B93C6474F922A1FD4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7D7D50E23C684AA5AAB8EB89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 738J939X98;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PomodoroTimer;
+				PRODUCT_NAME = PomodoroTimer;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		91CCF98D1C3A402F9A1B17F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9A17EF1A0414CEC92CECC2C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 738J939X98;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.PomodoroTimer;
+				PRODUCT_NAME = PomodoroTimer;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		09CE2D2BCAFA4876BD435B02 /* Build configuration list for PBXNativeTarget "PomodoroTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A17EF1A0414CEC92CECC2C /* Debug */,
+				7D7D50E23C684AA5AAB8EB89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		42F099237FDD414DA70EEFB5 /* Build configuration list for PBXProject "PomodoroTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91CCF98D1C3A402F9A1B17F0 /* Debug */,
+				3745585B93C6474F922A1FD4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A453A7D49464B8691A93193 /* Project object */;
+}

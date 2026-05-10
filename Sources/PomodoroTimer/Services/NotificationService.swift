@@ -8,7 +8,16 @@ final class NotificationService {
 
     private init() {}
 
+    private var isAvailable: Bool {
+        #if os(macOS)
+        return Bundle.main.bundleIdentifier != nil
+        #else
+        return true
+        #endif
+    }
+
     func requestAuthorization() {
+        guard isAvailable else { return }
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert, .sound]) { granted, _ in
             if granted {
                 #if os(iOS)
@@ -21,6 +30,7 @@ final class NotificationService {
     }
 
     func sendNotification(title: String, body: String) {
+        guard isAvailable else { return }
         let content = UNMutableNotificationContent()
         content.title = title
         content.body = body
